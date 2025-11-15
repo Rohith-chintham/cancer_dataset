@@ -2,9 +2,7 @@ git clone https://github.com/Rohith-chintham/cancer_dataset.git
 
 cd cancer_dataset
 
-pip install tensorflow keras pillow numpy
-
-pip install matplotlib
+pip install -r requirements.txt
 
 python cancer_train.py
 
